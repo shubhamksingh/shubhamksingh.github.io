@@ -27,7 +27,7 @@ function About() {
       </div>
       <div className="right">
         <div className="imageContainer">
-          <img src="assets/shubham.jpg" alt="na" />
+          <img src="assets/shubham.JPG" alt="na" />
         </div>
       </div>
     </div>
