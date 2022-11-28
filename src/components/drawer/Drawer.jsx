@@ -17,7 +17,7 @@ function Drawer({ menuOpen, setMenuOpen }) {
           <a href="#projects">PROJECTS</a>
         </li>
         <li onClick={()=> setMenuOpen(false)}>
-          <a href="#stats">STATS</a>
+          <a href="#stats">GIT STATS</a>
         </li>
         <li onClick={()=> setMenuOpen(false)}>
           <a href="#contact">CONTACT</a>

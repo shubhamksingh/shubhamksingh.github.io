@@ -12,8 +12,8 @@ function Navbar({menuOpen, setMenuOpen}) {
         </div>
         <div className="right">
             <a href="#about" style={{"text-decoration" : "none", "color":'white'}}><span>HOME</span></a>
-            <a href="#about" style={{"text-decoration" : "none", "color":'white'}}><span >ABOUT</span></a>
-            <a  href="#skills" style={{"text-decoration" : "none", "color": 'white'}}><span>SKILLS</span> </a>
+            <a href="#skills" style={{"text-decoration" : "none", "color":'white'}}><span >SKILLS</span></a>
+            <a  href="#stats" style={{"text-decoration" : "none", "color": 'white'}}><span>GIT STATS</span> </a>
             <a  href="#projects" style={{"text-decoration" : "none", "color": 'white'}}><span>PROJECTS</span> </a>
             <a  href="#contact" style={{"text-decoration" : "none", "color": 'white'}}><span>CONTACT ME</span></a>
             <a  href="https://drive.google.com/file/d/1eOSq8dMtil5YI1eT_yKWoHX36YsvTeFn/view?usp=sharing" target={"blank"} download style={{"text-decoration" : "none", "color": 'white'}}><button class='button'>RESUME</button></a>
