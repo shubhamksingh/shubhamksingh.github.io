@@ -1,0 +1,123 @@
+@import "../../global.scss";
+// @import "../../global.scss";
+// #DE781F;
+.navbar {
+  height: 70px;
+  background-color: $maincolor;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+
+  .wrapper {
+    padding: 10px 30px;
+    // padding-right: 10px;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    justify-content: space-between;
+
+    .left {
+    // border:1px solid white;
+      width: 100%;
+      flex: 0.4;
+      @include tablet{
+        flex: 0.5;
+        font-size: 20px;
+        // margin-top: 5px;
+      }
+    }
+
+    .right {
+      flex: 0.5;
+      display: flex;
+      justify-content: space-between;
+    //   gap: 3rem;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      transition: all 1s ease;
+
+      @include tablet {
+        display: none;
+        color: inherit;
+      }
+
+      .button {
+        border-radius: 5px;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+      a {
+        // border: 1px solid black;
+        color: inherit;
+        color: white;
+        min-width: 3.4rem;
+        span{
+            color: inherit;
+            width: 100%;
+            &:hover{
+                color: black;
+                font-weight: 500;
+            }
+
+        }
+      }
+    }
+    .hamburger {
+      // border: 1px solid black;
+      height: 25px;
+      width: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: all 1s ease;
+      position: fixed;
+
+      right: -32px;
+    //   display: none;
+
+
+      @include tablet {
+        right: 32px;
+        // display: flex;
+
+        color: inherit;
+      }
+
+      span {
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        transform-origin: 0%;
+        transition: all 1s ease;
+        // border: 4px solid black;
+      }
+    }
+  }
+  &.active {
+    background-color: black;
+    color: white;
+    .hamburger {
+      span {
+        &:first-child {
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}

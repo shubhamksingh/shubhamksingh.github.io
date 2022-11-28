@@ -1,0 +1,146 @@
+@import "../../global.scss";
+
+.about{
+
+    background: $maincolor2; 
+    display: flex;
+
+
+    .left{
+        flex: 0.7;
+        position: relative;
+
+        color: black;
+        overflow: hidden;
+        .wrapper{
+       
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 50px;
+            padding-right: 20px;
+          
+          
+            h1{
+               font-size: 50px;
+               margin: 10px 0;
+               color: rgb(152, 48, 48);
+
+            }
+            h2{
+               font-size: 35px;
+            }
+            h3{
+              font-size: 30px;
+            }
+
+            a{
+                text-decoration: none;
+                
+                button{
+                    display: block;
+                    margin: 1rem 0;
+                    background: #DE781F;
+                    border-radius: 1rem;
+                    width: 8rem;
+                    height: 3rem;
+                    // padding: 0.5rem;
+                    cursor: pointer;
+                    border: none;
+                    color: white;
+
+                }
+            }
+            p{
+                margin: 10px 0;
+                font-size: 20px;
+                padding-right: 6rem;
+        
+            }
+            
+        }
+        .downArrow{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            img{
+                width: 30px;
+                animation : arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink {
+                 
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
+  
+    }
+
+    .right{
+        flex: 0.3;
+        // border: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+       .imageContainer{
+        //    border: 1px solid black;
+           width: 300px;
+           height: 350px;
+           border-radius: 50%;
+           background-color: white;
+           overflow: hidden;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           
+           img{
+               // width: 100%;
+               height: 100%;
+                
+           }
+       }
+    }
+
+    @include tablet{
+        flex-direction: column-reverse;
+
+        .right{
+            margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left{
+            .wrapper{
+                border: 1px solid black;
+                padding: 1rem;
+                margin-top: 2rem;
+                // width: 100%;
+               display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+                h1{
+                    font-size: 40px;
+                }
+                h2{
+                    font-size: 30px;
+                }
+                h3{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 18px;
+                    padding: 0;
+                    padding-top: 0.5rem;
+                }
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+$maincolor : #1a1f71;
+$maincolor2 : #F0F8FF;
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width : 1034px){
+        @content
+    }
+}

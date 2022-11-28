@@ -1,0 +1,40 @@
+@import '../../global.scss';
+
+.stats{
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+   .wrapper{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 2rem;
+         flex-wrap: wrap;
+         width: 100%;
+         max-width: 1200px;
+         margin: 0 auto;
+         padding: 2rem 0;
+         @include mobile{
+              flex-direction: column;
+              gap: 1rem;
+         }
+         .gitImages{
+            display: flex;
+            gap:2rem;
+            align-items: center;
+            justify-content: center;
+            @include tablet{
+                flex-direction: column;
+                gap: 1rem;
+           }
+        }
+
+
+
+   }
+}
