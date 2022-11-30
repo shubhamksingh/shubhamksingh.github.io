@@ -7,7 +7,7 @@ function Stats() {
       <div className='wrapper'>
         <h2>My GitHub Statistics</h2>
        
-          <GitHubCalendar username='shubhamksingh' />
+          <GitHubCalendar username='shubhamksingh' className='calender'/>
           <div className="gitImages">
           <img src='https://github-readme-streak-stats.herokuapp.com/?user=shubhamksingh' alt='Shubham Singh' />
           <img src='https://github-readme-stats.vercel.app/api?username=shubhamksingh&show_icons=true&locale=en' alt='Shubham Singh' />

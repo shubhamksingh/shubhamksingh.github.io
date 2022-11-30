@@ -3,12 +3,12 @@
     scroll-behavior: smooth;
     .section{
         width: 100%;
-        min-height:calc(100vh - 70px);
+        min-height:calc(100vh- 70px );
         background-color: lightgoldenrodyellow;
         position: relative;
         top: 70px;
         
-        // scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
         scrollbar-width: none ;
         scroll-behavior: smooth;
         &::-webkit-scrollbar{

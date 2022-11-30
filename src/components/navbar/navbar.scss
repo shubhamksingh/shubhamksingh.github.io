@@ -24,8 +24,15 @@
       width: 100%;
       flex: 0.4;
       @include tablet{
+        // max-width : px;
         flex: 0.5;
         font-size: 20px;
+        // margin-top: 5px;
+      }
+      @include mobile{
+        // max-width : px;
+        flex: 0.7;
+        font-size: 15px;
         // margin-top: 5px;
       }
     }
@@ -64,7 +71,7 @@
             color: inherit;
             width: 100%;
             &:hover{
-                color: black;
+                color: orange;
                 font-weight: 500;
             }
 
