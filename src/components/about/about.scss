@@ -39,16 +39,22 @@
                 text-decoration: none;
                 
                 button{
-                    display: block;
+                    // display: block;
                     margin: 1rem 0;
-                    background: #DE781F;
-                    border-radius: 1rem;
-                    width: 8rem;
-                    height: 3rem;
+                    background: rgb(152, 48, 48);
+                    // border-radius: 1rem;
+                    // width: 8rem;
+                    // height: 3rem;
                     // padding: 0.5rem;
                     cursor: pointer;
                     border: none;
                     color: white;
+                    &:hover{
+                        color : black;
+                        // background: rgb(152, 48, 48);
+                        // scale: 1.03;
+                        // transition: all 1s ease;
+                    }
 
                 }
             }
