@@ -4,8 +4,9 @@ import GitHubCalendar from 'react-github-calendar';
 function Stats() {
   return (
     <div className='stats' id='stats'>
+      <h2>My GitHub Statistics</h2>
       <div className='wrapper'>
-        <h2>My GitHub Statistics</h2>
+        
        
           <GitHubCalendar username='shubhamksingh' className='calender'/>
           <div className="gitImages">

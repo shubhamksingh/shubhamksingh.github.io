@@ -6,7 +6,18 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    h2{
+     font-size: 3rem;
+     font-weight: 600;
+     color: rgb(0, 0, 0);
+     margin: 2rem 0;
+     margin-bottom: 3rem;
+     @include mobile{
+         font-size: 30px;
+         text-align: center;
+     }
+
+ }
 
    .wrapper{
          display: flex;
@@ -19,6 +30,7 @@
          max-width: 1200px;
          margin: 0 auto;
          padding: 2rem 0;
+ 
          @include mobile{
               flex-direction: column;
               gap: 1rem;
