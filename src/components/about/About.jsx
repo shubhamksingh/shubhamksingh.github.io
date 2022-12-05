@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Button, Link } from "@chakra-ui/react";
 import "./about.scss";
 
 function About() {
@@ -19,7 +19,7 @@ function About() {
             analytical skills. Team player with an eye for detail.
           </p>
           
-          <a href="resume.pdf" download="resume.pdf"><Button bgColor={'orange'}>Download Resume</Button></a>
+          <a><Button className="resume" background={"rgb(152, 48, 48)"} color='white' as={Link} href="assets/resume.pdf"  hbgColor={'orange'}>Download Resume</Button></a>
           
         </div>
         <a href="#skills" class="downArrow">

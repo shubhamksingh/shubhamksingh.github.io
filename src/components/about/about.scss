@@ -38,7 +38,7 @@
             a{
                 text-decoration: none;
                 
-                button{
+                .resume{
                     // display: block;
                     margin: 1rem 0;
                     background: rgb(152, 48, 48);
@@ -51,6 +51,7 @@
                     color: white;
                     &:hover{
                         color : black;
+                        background: rgb(246, 211, 145);
                         // background: rgb(152, 48, 48);
                         // scale: 1.03;
                         // transition: all 1s ease;

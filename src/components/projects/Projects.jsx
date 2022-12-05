@@ -76,8 +76,20 @@ function Projects() {
           </div>
           <div>
             <HStack>
-              <Button as={Link} href='https://ketto-shubhamksingh.vercel.app/' target='blank'>live demo</Button>
-              <Button as={Link} href='https://github.com/shubhamksingh/Ketto-India-clone-' target='blank'>source code</Button>
+              <Button
+                as={Link}
+                href="https://ketto-shubhamksingh.vercel.app/"
+                target="blank"
+              >
+                live demo
+              </Button>
+              <Button
+                as={Link}
+                href="https://github.com/shubhamksingh/Ketto-India-clone-"
+                target="blank"
+              >
+                source code
+              </Button>
             </HStack>
           </div>
         </div>
@@ -93,20 +105,34 @@ function Projects() {
           <div className="info">
             <h3>About Project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quae.
+              Intern Theory is an online internship portal created for students
+              seeking internships and companies looking for interns. It is a
+              Collaborative Project. Executed with the help of 5 Developers
+              within 4 days. This project includes features like user
+              authentication and adding products to the wishlist, cart, orders
+              and payment gateway.
             </p>
           </div>
           <div className="tech">
             <h3>Technologies</h3>
-            <p>
-                 HTML | CSS | Javascript | JSON-Server
-            </p>
+            <p>HTML | CSS | Javascript | JSON-Server</p>
           </div>
           <div>
             <HStack>
-              <Button as={Link} href='https://shubhamksingh.github.io/interntheory-Clone-/' target='blank'>live demo</Button>
-              <Button as={Link} href='https://github.com/shubhamksingh/interntheory-Clone-' target='blank'>source code</Button>
+              <Button
+                as={Link}
+                href="https://shubhamksingh.github.io/interntheory-Clone-/"
+                target="blank"
+              >
+                live demo
+              </Button>
+              <Button
+                as={Link}
+                href="https://github.com/shubhamksingh/interntheory-Clone-"
+                target="blank"
+              >
+                source code
+              </Button>
             </HStack>
           </div>
         </div>
@@ -122,20 +148,36 @@ function Projects() {
           <div className="info">
             <h3>About Project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quae.
+              Fusion Strom is an Ecommerce web application that deals with
+              selling lifestyle-related products. Design inspiration is from
+              Nord Strom. Fusion Strom includes features like sorting and
+              filtering of products, user authentication and adding products to
+              the wishlist, cart, orders and payment gateway.
             </p>
           </div>
           <div className="tech">
             <h3>Technologies</h3>
             <p>
-            Mongo DB | Express | Redux | React JS | React-Router-Dom | Chakra UI | React-Icons
+              Mongo DB | Express | Redux | React JS | React-Router-Dom | Chakra
+              UI | React-Icons
             </p>
           </div>
           <div>
             <HStack>
-              <Button as={Link} href='https://fusion-strom.vercel.app/' target='blank'>live demo</Button>
-              <Button as={Link} href="https://github.com/shubhamksingh/sole-wing-9343" target="blank">source code</Button>
+              <Button
+                as={Link}
+                href="https://fusion-strom.vercel.app/"
+                target="blank"
+              >
+                live demo
+              </Button>
+              <Button
+                as={Link}
+                href="https://github.com/shubhamksingh/sole-wing-9343"
+                target="blank"
+              >
+                source code
+              </Button>
             </HStack>
           </div>
         </div>
